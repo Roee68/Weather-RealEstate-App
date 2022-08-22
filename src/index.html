@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather - Realestate App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <table class="centerTable" >
+        <tr>
+            <td>
+                <h1>Weather - Real estate App</h1>
+                <label for="weatherCityInpot" id="weatherCitylabel">City name:</label><br>
+                <input type="text" id="weatherCityInpot" class="weatherCityInpot"/><br>
+                <label for="countryCode" id="countryCodelabel">Country Code:</label><br>
+                <input type="text" id="countryCode" class="countryCode"/><br>
+                <button id="weatherSearch" class="button weatherButton">Search Weather</button><br>
+                <button id="propertiesSearch" class="button propertiesButton" >Search Properties</button> 
+            </td>
+        </tr>
+        <tr class="centerTr">
+          <td><div id="weatherCityDisplay" class="weatherCityDisplay"></div><br>
+            <div id="propertiesDisplay" class="propertiesDisplay"></div>
+        </td>
+        </tr>
+      </table>    
+<script src="main.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+
+
+.button {
+  background-color: #7dbce6; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.weatherButton:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.propertiesButton:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+
+.centerTable {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0, 27, 27);
+    width: 50%;
+  }
+  .weatherCityInpot {
+    background-color: #7dbce6; 
+    border: none;
+    color: white;
+    padding: 16px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 160px;
+  }
+  
+  .centerTr {
+  border-radius: 15px;
+  background: #010107;
+  padding: 6px; 
+  width: 400px;
+  height: 150px;
+  }
+
+  h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(182, 228, 255);
+    text-align: center;
+  }
+  .countryCode {
+    background-color: #7dbce6; 
+    border: none;
+    color: white;
+    padding: 16px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 60px;
+  }
+
+  .weatherCityDisplay{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(56, 153, 245);
+  }
+  .propertiesDisplay{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(167, 206, 245);
+  }
+
+  #weatherCitylabel{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(182, 228, 255);
+  }
+  #countryCodelabel{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(182, 228, 255);
+  }
