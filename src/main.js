@@ -51,7 +51,7 @@ const handlePropertyData = (data) => {
 // fetch the weather data from the api
 function showWeather(event) {
   event.preventDefault();
-  const baseURL = "https://api.openweathermap.org/data/2.5/weather";
+  const baseURL = "http://api.openweathermap.org/data/2.5/weather";
   const parameters = `?q=${cityInput.value},${CountryCodeInput.value}&units=metric&appid=${apiKey}`;
   const finalUrl = baseURL + parameters;
   fetch(finalUrl).then(handleReqest).then(handleData);
